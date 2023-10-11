@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    color: white;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('imagem/novofunfo.png');
+    background-position: center;
+    background-size: cover;
+    background-color: #121b21;
+
+}
+
+header {
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+header #logo{
+    width: 25%;
+    padding: 2rem 4rem;
+}
+
+.infinitoLogo {
+    width: 100%;
+
+}
+
+
+header nav{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+header nav a{
+    text-decoration: none;
+}
+
+nav .casa{
+    color: rgb(17, 191, 17);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    
+}
+
+main .artigo{
+    width: 50%;
+    display: flex;
+    padding: 2rem 4rem;
+    text-align: center;
+    font-weight: 900;
+    margin: bottom 100px;;
+    
+}
+
+div.baner img{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    padding-left:2rem 3rem;
+    align-items: center;
+    margin-left: 32px;
+}
+
+
+main footer{
+    width: 25%;
+    text-align: right;
+    padding: 2rem 3rem;
+}
+h1 span{
+    color: rgb(14, 173, 14);
+}
+
+
+ button{
+    color:rgb(14, 173, 14);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    outline: auto;
+    margin: 0.5rem;
+
+   }
+p{
+    width:100%;
+    margin-top: 20rem;
+    display: flex;
+
+}
